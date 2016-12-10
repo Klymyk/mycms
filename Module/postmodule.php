@@ -6,7 +6,7 @@
  * Time: 20:23
  */
 
-class Post
+ class Post
 {
     /**
      *
@@ -21,7 +21,7 @@ class Post
      */
     public function getPost($id)
     {
-
+        echo 'gut';
     }
 
     /**
@@ -29,7 +29,7 @@ class Post
      */
     public function getAllPost ()
     {
-
+        echo 'gut';
     }
 
     public function EditPost ($id,$tile,$content,$date)
