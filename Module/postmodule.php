@@ -6,7 +6,7 @@
  * Time: 20:23
  */
 
- class Post
+ class Postmodule
 {
     /**
      *
@@ -21,7 +21,7 @@
      */
     public function getPost($id)
     {
-        echo 'gut';
+       return $allpost [] = ["id" => 1, "title" => "Title21", "date" => "26.08.1997", "content" => "Content1"];
     }
 
     /**
@@ -29,7 +29,10 @@
      */
     public function getAllPost ()
     {
-        echo 'gut';
+        $allpost [] = ["id" => 1, "title" => "Title1", "date" => "26.08.1997", "content" => "Content1"];
+        $allpost []= ["id" => 2, "title" => "Title2", "date" => "26.08.1997", "content" => "Content2"];
+
+        return $allpost;
     }
 
     public function EditPost ($id,$tile,$content,$date)

@@ -1,5 +1,6 @@
 <?php
 require_once("Module/postmodule.php");
+require_once ("config.php");
 
 /**
  * Created by PhpStorm.
@@ -7,5 +8,6 @@ require_once("Module/postmodule.php");
  * Date: 10.12.2016
  * Time: 20:19
  */
-$test = new Post;
-$test->getAllPost();
+ $test = new Postmodule();
+ $posts =  $test->getAllPost();
+ include("View/postsTemplete.php");
