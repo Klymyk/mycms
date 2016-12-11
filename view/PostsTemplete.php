@@ -8,7 +8,12 @@
 </head>
 <body>
 <div>
-    <h3>Private CMS</h3>
+    <h3 class="entry-content">Private CMS</h3>
+    <ul>
+        <li><a href="../index.php">Home</a></li>
+        <li> <a href="admin"> Content panel </a></li>
+    </ul>
+    
     <div>
         <?php foreach ($posts as $post) { ?>
         <div class="container">
@@ -16,13 +21,8 @@
                 <h3>
                     <a href="post.php?id=<?=$post["id"]?>"><?=$post["title"]?></a>
                 </h3>
-                <em>Create date: <?php $post['date']?> </em>
-                <p> <?php $post['content']?> </p>
-            </post>
-            <post>
-                <h3>Трофеи великих битв</h3>
-                <em>Опубликовано: 2016-10-21</em>
-                <p>22 июня 1943 года, спустя два года после начала Великой Отчественной войны, в ЦПКиО им. Горького в Москве открылась за пять лет ее существования на трофейные автомобили, авиация, артиллерия, пришли посмотреть более 7,5 млн человек. Спустя два года после начала Великой Отчественной войны, в ЦПКиО им. Горького в Москве открылась выставка захваченного у Германии оружия.</p>
+                <em>Create date: <?=$post['date']?> </em>
+                <p> <?=$post['content']?> </p>
             </post>
         </div>
         <?php  }  ?>
