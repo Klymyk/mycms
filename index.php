@@ -9,5 +9,6 @@ require_once ("config.php");
  * Time: 20:19
  */
  $test = new Postmodule();
- $posts =  $test->getAllPost();
+ $link = new Connect();
+ $posts =  $test->getAllPost($link->db_connect());
  include("View/postsTemplete.php");

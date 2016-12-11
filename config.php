@@ -11,7 +11,7 @@ class Connect
     const MYSQL_SERVER = '127.0.0.1:3306';
     const MYSQL_USER = 'root';
     const MYSQL_PASSWORD = '';
-    const MYSQL_DB = 'blog';
+    const MYSQL_DB = 'mycms';
 
     public function db_connect()
     {
