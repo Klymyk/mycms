@@ -73,6 +73,14 @@
         return $postarray;
     }
 
+     /**
+      * @param $link
+      * @param $id
+      * @param $title
+      * @param $date
+      * @param $content
+      * @return bool|int
+      */
      function editPost($link, $id, $title, $date, $content)
      {
          $title = trim($title);
@@ -98,6 +106,11 @@
          return mysqli_affected_rows($link);
      }
 
+     /**
+      * @param $link
+      * @param $id
+      * @return bool|int
+      */
     public function deletePost ($link,$id)
     {
         $id = (int)$id;
@@ -110,7 +123,5 @@
             die(mysqli_error($link));
 
         return mysqli_affected_rows($link);
-
-
     }
 }

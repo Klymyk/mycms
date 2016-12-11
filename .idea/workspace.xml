@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6537a9cf-f0af-4cd0-a0bd-ccd97496487f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Admin/index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/edit_post.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/View/onePostTemplate.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Admin/index.php" afterPath="$PROJECT_DIR$/Admin/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Module/postmodule.php" afterPath="$PROJECT_DIR$/Module/postmodule.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.php" afterPath="$PROJECT_DIR$/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/post.php" afterPath="$PROJECT_DIR$/post.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="MYCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,6 +27,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="postsTemplete.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/View/postsTemplete.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,21 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="postsTemplete.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/View/postsTemplete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="admin_templeta.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/View/admin_templeta.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="17" selection-start-line="13" selection-start-column="10" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="90">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -74,6 +67,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="onePostTemplate.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/View/onePostTemplate.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -84,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/post.php">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="578">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
               </folding>
@@ -96,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Admin/index.php">
+      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
+            <state relative-caret-position="425">
+              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
               </folding>
@@ -111,32 +116,22 @@
       <file leaf-file-name="postmodule.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Module/postmodule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="634">
-              <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
+            <state relative-caret-position="1382">
+              <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
               <folding>
                 <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1481466949437" expanded="true" signature="342:407" placeholder="INSERT INTO articles... " />
-                <marker date="1481466949437" expanded="true" signature="905:929" placeholder="SELECT * FRO... post" />
-                <marker date="1481466949437" expanded="true" signature="905:937" placeholder="SELECT * FRO... post" />
-                <marker date="1481466949437" expanded="true" signature="905:948" placeholder="SELECT * FRO... post" />
-                <marker date="1481466949437" expanded="true" signature="905:949" placeholder="SELECT * FRO... post" />
-                <marker date="1481466949437" expanded="true" signature="1249:1284" placeholder="SELECT * FRO... post" />
-                <marker date="1481466949437" expanded="true" signature="1255:1284" placeholder="select * fro... post" />
-                <marker date="1481466949437" expanded="true" signature="1906:1971" placeholder="UPDATE post " />
-                <marker date="1481466949437" expanded="true" signature="2516:2547" placeholder="Delete FROM " />
-                <marker date="1481466949437" expanded="true" signature="2517:2547" placeholder="delete FROM " />
-                <marker date="1481466949437" expanded="true" signature="2522:2547" placeholder="SELECT * FRO... post" />
+                <marker date="1481483231610" expanded="true" signature="342:407" placeholder="INSERT INTO articles... " />
+                <marker date="1481483231610" expanded="true" signature="905:929" placeholder="SELECT * FRO... post" />
+                <marker date="1481483231610" expanded="true" signature="905:937" placeholder="SELECT * FRO... post" />
+                <marker date="1481483231610" expanded="true" signature="905:948" placeholder="SELECT * FRO... post" />
+                <marker date="1481483231610" expanded="true" signature="905:949" placeholder="SELECT * FRO... post" />
+                <marker date="1481483231610" expanded="true" signature="1249:1284" placeholder="SELECT * FRO... post" />
+                <marker date="1481483231610" expanded="true" signature="1255:1284" placeholder="select * fro... post" />
+                <marker date="1481483231610" expanded="true" signature="2056:2121" placeholder="UPDATE post " />
+                <marker date="1481483231610" expanded="true" signature="2749:2780" placeholder="Delete FROM " />
+                <marker date="1481483231610" expanded="true" signature="2750:2780" placeholder="delete FROM " />
+                <marker date="1481483231610" expanded="true" signature="2755:2780" placeholder="SELECT * FRO... post" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -173,7 +168,6 @@
         <option value="$PROJECT_DIR$/Module/function.php" />
         <option value="$PROJECT_DIR$/view/templete.php" />
         <option value="$PROJECT_DIR$/View/onePostTemplete.php" />
-        <option value="$PROJECT_DIR$/config.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/ndex.html" />
         <option value="$PROJECT_DIR$/style.css" />
@@ -181,10 +175,11 @@
         <option value="$PROJECT_DIR$/post.php" />
         <option value="$PROJECT_DIR$/View/add_post.php" />
         <option value="$PROJECT_DIR$/View/edit_post.php" />
-        <option value="$PROJECT_DIR$/Module/postmodule.php" />
-        <option value="$PROJECT_DIR$/Admin/index.php" />
         <option value="$PROJECT_DIR$/View/admin_templeta.php" />
         <option value="$PROJECT_DIR$/View/postsTemplete.php" />
+        <option value="$PROJECT_DIR$/Admin/index.php" />
+        <option value="$PROJECT_DIR$/Module/postmodule.php" />
+        <option value="$PROJECT_DIR$/config.php" />
       </list>
     </option>
   </component>
@@ -355,7 +350,7 @@
       <updated>1481392226689</updated>
       <workItem from="1481392227969" duration="3211000" />
       <workItem from="1481397039262" duration="5096000" />
-      <workItem from="1481442260416" duration="16895000" />
+      <workItem from="1481442260416" duration="17575000" />
     </task>
     <task id="LOCAL-00001" summary="Add some code&#10;">
       <created>1481399006495</created>
@@ -371,11 +366,25 @@
       <option name="project" value="LOCAL" />
       <updated>1481445807708</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add some code&#10;">
+      <created>1481467531597</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1481467531597</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add some code&#10;">
+      <created>1481467568645</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1481467568645</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25202000" />
+    <option name="totallyTimeSpent" value="25882000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -469,17 +478,17 @@
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1481466949437" expanded="true" signature="342:407" placeholder="INSERT INTO articles... " />
-            <marker date="1481466949437" expanded="true" signature="905:929" placeholder="SELECT * FRO... post" />
-            <marker date="1481466949437" expanded="true" signature="905:937" placeholder="SELECT * FRO... post" />
-            <marker date="1481466949437" expanded="true" signature="905:948" placeholder="SELECT * FRO... post" />
-            <marker date="1481466949437" expanded="true" signature="905:949" placeholder="SELECT * FRO... post" />
-            <marker date="1481466949437" expanded="true" signature="1249:1284" placeholder="SELECT * FRO... post" />
-            <marker date="1481466949437" expanded="true" signature="1255:1284" placeholder="select * fro... post" />
-            <marker date="1481466949437" expanded="true" signature="1906:1971" placeholder="UPDATE post " />
-            <marker date="1481466949437" expanded="true" signature="2516:2547" placeholder="Delete FROM " />
-            <marker date="1481466949437" expanded="true" signature="2517:2547" placeholder="delete FROM " />
-            <marker date="1481466949437" expanded="true" signature="2522:2547" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="342:407" placeholder="INSERT INTO articles... " />
+            <marker date="1481483231610" expanded="true" signature="905:929" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="905:937" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="905:948" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="905:949" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="1249:1284" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="1255:1284" placeholder="select * fro... post" />
+            <marker date="1481483231610" expanded="true" signature="2056:2121" placeholder="UPDATE post " />
+            <marker date="1481483231610" expanded="true" signature="2749:2780" placeholder="Delete FROM " />
+            <marker date="1481483231610" expanded="true" signature="2750:2780" placeholder="delete FROM " />
+            <marker date="1481483231610" expanded="true" signature="2755:2780" placeholder="SELECT * FRO... post" />
           </folding>
         </state>
       </provider>
@@ -534,10 +543,89 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Module/postmodule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1382">
+          <caret line="125" column="0" selection-start-line="125" selection-start-column="0" selection-end-line="125" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+            <marker date="1481483231610" expanded="true" signature="342:407" placeholder="INSERT INTO articles... " />
+            <marker date="1481483231610" expanded="true" signature="905:929" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="905:937" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="905:948" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="905:949" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="1249:1284" placeholder="SELECT * FRO... post" />
+            <marker date="1481483231610" expanded="true" signature="1255:1284" placeholder="select * fro... post" />
+            <marker date="1481483231610" expanded="true" signature="2056:2121" placeholder="UPDATE post " />
+            <marker date="1481483231610" expanded="true" signature="2749:2780" placeholder="Delete FROM " />
+            <marker date="1481483231610" expanded="true" signature="2750:2780" placeholder="delete FROM " />
+            <marker date="1481483231610" expanded="true" signature="2755:2780" placeholder="SELECT * FRO... post" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/edit_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/admin_templeta.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/add_post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/onePostTemplate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/View/postsTemplete.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
           </folding>
@@ -554,90 +642,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="35" column="19" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+        <state relative-caret-position="354">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/onePostTemplate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/add_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/edit_post.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="76" selection-start-line="23" selection-start-column="76" selection-end-line="23" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Module/postmodule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="105" column="27" selection-start-line="105" selection-start-column="27" selection-end-line="105" selection-end-column="27" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1481466949437" expanded="true" signature="342:407" placeholder="INSERT INTO articles... " />
-            <marker date="1481466949437" expanded="true" signature="905:929" placeholder="SELECT * FRO... post" />
-            <marker date="1481466949437" expanded="true" signature="905:937" placeholder="SELECT * FRO... post" />
-            <marker date="1481466949437" expanded="true" signature="905:948" placeholder="SELECT * FRO... post" />
-            <marker date="1481466949437" expanded="true" signature="905:949" placeholder="SELECT * FRO... post" />
-            <marker date="1481466949437" expanded="true" signature="1249:1284" placeholder="SELECT * FRO... post" />
-            <marker date="1481466949437" expanded="true" signature="1255:1284" placeholder="select * fro... post" />
-            <marker date="1481466949437" expanded="true" signature="1906:1971" placeholder="UPDATE post " />
-            <marker date="1481466949437" expanded="true" signature="2516:2547" placeholder="Delete FROM " />
-            <marker date="1481466949437" expanded="true" signature="2517:2547" placeholder="delete FROM " />
-            <marker date="1481466949437" expanded="true" signature="2522:2547" placeholder="SELECT * FRO... post" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="61" column="42" selection-start-line="61" selection-start-column="42" selection-end-line="61" selection-end-column="42" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/admin_templeta.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="17" selection-start-line="13" selection-start-column="10" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/View/postsTemplete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>

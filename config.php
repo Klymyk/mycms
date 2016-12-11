@@ -13,6 +13,9 @@ class Connect
     const MYSQL_PASSWORD = '';
     const MYSQL_DB = 'mycms';
 
+    /**
+     * @return mysqli
+     */
     public function db_connect()
     {
         $link = mysqli_connect(self::MYSQL_SERVER, self::MYSQL_USER, self::MYSQL_PASSWORD, self::MYSQL_DB)
@@ -20,6 +23,7 @@ class Connect
         if (!mysqli_set_charset($link, "utf8")) {
             printf("Error: " . mysqli_error($link));
         }
+        
         return $link;
     }
 }

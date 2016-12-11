@@ -24,14 +24,17 @@ class Admin{
     }
 
     /**
-     *
+     * 
      */
     public function getAllpost ()
     {
         $this->post = $this->postfunc->getAllPost($this->link->db_connect());
         include("../View/admin_templeta.php");
     }
-    
+
+    /**
+     * @param $globalen
+     */
     public function runpost ($globalen)
     {
         if ($globalen == 'add') {
